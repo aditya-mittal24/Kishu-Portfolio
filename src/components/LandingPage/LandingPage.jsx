@@ -12,12 +12,12 @@ function LandingPage() {
       />
       <div className="flex flex-col justify-center bruno-ace w-screen px-4 md:px-0 md:pr-4 md:w-full">
         <div className="h-full flex items-center">
-          <h1 className="text-[#D9D9D9] text-8xl md:text-9xl">
+          <h1 className="text-[#D9D9D9] text-7xl md:text-9xl">
             KISHU RAJ TYAGI
           </h1>
         </div>
         <div className="flex w-full mb-4 rounded-full bg-[#42424245] py-6 px-2">
-          <Marquee className="text-3xl font-extralight">
+          <Marquee className="text-2xl md:text-3xl font-extralight">
             &nbsp;GRAPHIC DESIGNER&nbsp;*&nbsp;UI/UX DESIGNER&nbsp;*&nbsp;3D
             ARTIST&nbsp;*
           </Marquee>

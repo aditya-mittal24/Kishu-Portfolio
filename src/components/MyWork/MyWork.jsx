@@ -23,7 +23,7 @@ function MyWork() {
   const [section, setSection] = useState(1);
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="flex flex-col items-center md:px-40 px-24 my-20">
+    <div className="flex flex-col items-center md:px-40 px-12 my-20">
       <div>
         <h1 className="text-5xl streamster">My WORK</h1>
         <img src={Underline} alt="" />

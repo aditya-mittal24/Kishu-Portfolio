@@ -16,32 +16,32 @@ function AboutMe() {
             </Marquee>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full py-8 md:py-0">
           <img className="w-auto" src={BlackHole} alt="blackhole" />
         </div>
       </div>
       <div className="px-4 grid md:grid-cols-6">
         <div className="flex flex-col items-center col-span-3">
           <div>
-            <h1 className="streamster text-6xl">About ME</h1>
+            <h1 className="streamster text-5xl md:text-6xl">About ME</h1>
             <img src={Underline} alt="" />
           </div>
           <img className="h-[70%] my-4" src={Picture} alt="" />
         </div>
-        <div className="bahnschrift col-span-2 text-2xl font-normal flex flex-col justify-center">
-          <p className="font-bold text-4xl leading-10">HI!!</p>
+        <div className="bahnschrift col-span-2 text-xl md:text-2xl font-normal flex flex-col justify-center">
+          <p className="font-bold text-2xl md:text-4xl leading-10">HI!!</p>
           <p>
             I'm Kishu Raj Tyagi, a UX Designer and 3D Artist with a passion for
             creating impactful visual experiences.
           </p>
           <p className="font-light">
-            <span className="font-bold text-4xl">Ever since </span>I started,
+            <span className="font-bold text-2xl md:text-4xl">Ever since </span>I started,
             I've been driven by the desire to blend creativity with
             functionality, whether it's revamping company designs or crafting
             intuitive user interfaces.
           </p>
           <p className="font-light">
-            <span className="font-bold text-4xl">I live to </span>explore
+            <span className="font-bold text-2xl md:text-4xl">I live to </span>explore
             innovative design solutions that not only solve problems but also
             inspire and engage users.
           </p>
